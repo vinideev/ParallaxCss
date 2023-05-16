@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Montserrat:wght@300&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif
+}
+
+body{
+    background-image: url('lua.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    color: whitesmoke;
+    background-color: black;
+    height: 70px;
+}
+
+a:hover{
+    color: rgb(182, 100, 72);
+    border-bottom: 2px solid whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 30px;
+}
+
+.parte-1 {
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: -200px;
+
+    
+}
+
+.p-header{
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.botao-git {
+    background-color: rgb(216, 192, 146);
+    color: black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 5px 0 10px 2px rgb(231, 195, 128);
+    cursor: pointer;
+}
+
+
+.botao-git:hover{
+    background-color:  rgb(92, 91, 90);
+    color: rgb(192, 192, 192);
+    box-shadow: 5px 0 10px 2px rgb(56, 56, 56);
+    transform: scale(0.8);
+}
+
+
+
+.img-btn {
+    width: 40px;
+    background-color: whitesmoke;
+    
+   
+}
+
+.fundo-cinza{
+    background: rgb(105,56,40);
+    background: linear-gradient(90deg, rgba(105,56,40,1) 23%, rgba(194,93,32,1) 75%);
+    height: 300px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    height: 600px;
+    
+}
+
+.card {
+    background-image: url('galaxy.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 400px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+    
+  }
+  
+
+.card:hover{
+    opacity: 50%;
+
+}
+
+.card p{
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
